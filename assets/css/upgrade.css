@@ -79,8 +79,22 @@ header.masthead {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.list-title {
+   margin-top: 50px; 
+   margin-bottom: 8px; 
+   color: rgb(39, 126, 53);
+  }
+  
 
-  .pricing .box {
+
+
+
+
+
+
+
+
+.pricing .box {
     background: #f2f8f2f1;
     border: 1px solid  #c1eec3;
 }
