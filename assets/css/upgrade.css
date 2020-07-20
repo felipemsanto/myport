@@ -39,8 +39,9 @@
 
 header.masthead {
     height: 100vh;
-    padding-top: 27.5rem;
-    padding-bottom: 12.5rem;
+    display: flex;
+	justify-content: center;
+	align-items: center;
     text-align: center;
     color: #fff;
     background-image: url("/assets/img/upgrade/top.png");
@@ -73,6 +74,7 @@ header.masthead {
     border-radius: 50%;
     border: 2px solid  var(--seccolor-2);
     margin-bottom: 32 px;
+    height: 500px;
     
   }
 
@@ -84,15 +86,6 @@ header.masthead {
    margin-bottom: 8px; 
    color: rgb(39, 126, 53);
   }
-  
-
-
-
-
-
-
-
-
 
 .pricing .box {
     background: #f2f8f2f1;
