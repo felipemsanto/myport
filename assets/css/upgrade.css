@@ -19,13 +19,21 @@
   }
   #menu.ativo {
     background-color: rgba(0,0,0,0.8) !important;
-    padding: .3rem 1rem;
+    padding: .1rem 1rem;
   }
 
   #imagem.ativo img {
       height: 60px;
   }
 
+  #logo-details img {
+    height: 60px;
+  }
+
+  #menu-details {
+    background-color: rgba(0,0,0,0.8) !important;
+    padding: .1rem 1rem;
+  }
   .perfil img {
     border-radius: 50%;
     border: 2px solid  var(--seccolor-2);
