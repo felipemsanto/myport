@@ -993,11 +993,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #0c520f;
   float: left;
   width: 44px;
   height: 44px;
-  background: #e3f0fa;
+  background: #e3fae8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1010,14 +1010,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  color: #383b38;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #217bbc;
+  color: #023b14;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1025,8 +1025,8 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #2487ce;
-  color: #fff;
+  background: #0c520f;
+  color: rgb(217, 252, 220);
 }
 
 .contact .php-email-form {
@@ -1096,7 +1096,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #2487ce;
+  border-color: #3fd35f;
 }
 
 .contact .php-email-form input {
@@ -1108,7 +1108,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #2487ce;
+  background: #4ab44a;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1117,7 +1117,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3194db;
+  background: #054b16;
 }
 
 @-webkit-keyframes animate-loading {
