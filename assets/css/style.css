@@ -696,7 +696,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #2487ce;
+  color: #0e8333;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -712,7 +712,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(140, 226, 151, 0.6);
+  background: rgba(147, 221, 157, 0.815);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -742,12 +742,12 @@ section {
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 55%;
+  height: 0px;
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
+  border-top: 3px solid rgb(9, 122, 18);
   border-left: 3px solid #fff;
   transition: all 0.5s ease 0s;
   z-index: 9994;
@@ -756,8 +756,8 @@ section {
 .portfolio .portfolio-wrap .portfolio-info::after {
   display: block;
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 55%;
+  height: 0px;
   position: absolute;
   bottom: 35px;
   right: 35px;
@@ -769,12 +769,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: rgb(7, 83, 17);
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #025802;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -787,7 +787,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
