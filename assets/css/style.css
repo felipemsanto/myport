@@ -4,7 +4,10 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+:root {
+  --base-1: #65cc6a;
+  --base-2: #065c23;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -45,13 +48,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: rgba(72, 190, 72, 0.774);
+  background: var(--base-1);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: rgba(37, 129, 37, 0.959);
+  background: var(--base-2);
   color: #fff;
 }
 
@@ -1108,7 +1111,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #4ab44a;
+  background: var(--base-1);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1117,7 +1120,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #054b16;
+  background: var(--base-2);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1277,7 +1280,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #65cc6a;
+  background: var(--base-1);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1290,7 +1293,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #065c23;
+  background: var(--base-2);
   color: #fff;
   text-decoration: none;
 }
