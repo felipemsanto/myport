@@ -17,10 +17,6 @@
     
 })(jQuery);
 
-function msg() {
-  alert("Enviado com sucesso!");
-}
-
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
       if (scroll >= 100) {               // se rolar 40px ativa o evento
