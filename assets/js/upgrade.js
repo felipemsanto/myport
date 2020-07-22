@@ -14,8 +14,12 @@
         }, 500);
         return false;
     })
-
+    
 })(jQuery);
+
+function msg() {
+  alert("Enviado com sucesso!");
+}
 
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
