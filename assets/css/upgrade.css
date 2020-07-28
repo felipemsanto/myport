@@ -98,6 +98,8 @@ header.masthead {
 .pricing .box {
     background: #f2f8f2f1;
     border: 1px solid  #c1eec3;
+    height: 33rem;
+   
 }
 
 .skill-icon img {
@@ -105,6 +107,9 @@ header.masthead {
     padding-top: 0px;
     object-fit: cover;
 }
+
+
+
 
   /*=== Configurações Gerais ===*/
 .underline {
