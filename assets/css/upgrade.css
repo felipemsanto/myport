@@ -8,6 +8,30 @@
 /*--------------------------------------------------------------
 # Top
 --------------------------------------------------------------*/
+/* link que ainda não foi visitado */
+.nav-item a:link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-item a:hover {
+  color: #92da96 !important;
+}
+
+.icon-top a {
+  font-size: 20px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  
+  
+}
+
+
 
 #menu {
     background-color: rgba(0,0,0,0) !important;
