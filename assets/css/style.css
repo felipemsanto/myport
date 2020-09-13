@@ -429,30 +429,30 @@ section {
 
 
 /*--------------------------------------------------------------
-# About Video
+# About 
 --------------------------------------------------------------*/
-.about-video .content {
+.about .content {
   font-size: 15px;
 }
 
-.about-video .content h3 {
+.about .content h3 {
   font-weight: 700;
   font-size: 24px;
   color: #124265;
 }
 
-.about-video .content ul {
+.about .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about-video .content ul li {
+.about .content ul li {
   padding-bottom: 10px;
   padding-left: 28px;
   position: relative;
 }
 
-.about-video .content ul i {
+.about .content ul i {
   font-size: 24px;
   color: #2487ce;
   position: absolute;
@@ -460,7 +460,7 @@ section {
   top: -2px;
 }
 
-.about-video .content p:last-child {
+.about .content p:last-child {
   margin-bottom: 0;
 }
 
