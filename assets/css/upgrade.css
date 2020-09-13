@@ -27,8 +27,6 @@
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  
-  
 }
 
 
@@ -103,14 +101,6 @@ header.masthead {
 # About
 --------------------------------------------------------------*/
 
- /* .about-video img {
-    border-radius: 50%;
-    border: 2px solid  var(--seccolor-2);
-    margin-bottom: 32 px;
-    
-    
-  }*/
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -120,7 +110,7 @@ header.masthead {
    color: rgb(39, 126, 53);
   }
 
-.pricing .box {
+.skills .box {
     background: #f2f8f2f1;
     border: 1px solid  #c1eec3;
     height: 33rem;
@@ -133,10 +123,7 @@ header.masthead {
     object-fit: cover;
 }
 
-
-
-
-  /*=== Configurações Gerais ===*/
+/*=== Configurações Gerais ===*/
 .underline {
   content: '';
   border-top: 2px solid var(--seccolor-1);;
